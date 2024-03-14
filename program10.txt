@@ -1,0 +1,37 @@
+
+D:\Monu\3rd Sem\Git>cd gl
+
+D:\Monu\3rd Sem\Git\gl>cd prg10
+
+D:\Monu\3rd Sem\Git\gl\prg10>git init
+Initialized empty Git repository in D:/Monu/3rd Sem/Git/gl/prg10/.git/
+
+D:\Monu\3rd Sem\Git\gl\prg10>git add log.txt
+
+D:\Monu\3rd Sem\Git\gl\prg10>git commit -m "added log file"
+[master (root-commit) af074f5] added log file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 log.txt
+
+D:\Monu\3rd Sem\Git\gl\prg10>log.txt
+
+D:\Monu\3rd Sem\Git\gl\prg10>git add log.txt
+
+D:\Monu\3rd Sem\Git\gl\prg10>git commit -m "123"
+[master 5037f07] 123
+ 1 file changed, 1 insertion(+)
+
+D:\Monu\3rd Sem\Git\gl\prg10>git log --author="Monika" --since="2023-01-01" --until="2024-3-14"
+commit 5037f07e253d6e8acde5cd87b7459b0d317d2fcc (HEAD -> master)
+Author: Monika <ammonika2004@gmail.com>
+Date:   Thu Mar 14 22:37:23 2024 +0530
+
+    123
+
+commit af074f51f0b6264fc6198b055b78057e9b527014
+Author: Monika <ammonika2004@gmail.com>
+Date:   Thu Mar 14 22:36:39 2024 +0530
+
+    added log file
+
+D:\Monu\3rd Sem\Git\gl\prg10>

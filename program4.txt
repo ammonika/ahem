@@ -1,0 +1,17 @@
+D:\Monu\3rd Sem\Git>cd gl
+
+D:\Monu\3rd Sem\Git\gl>cd prg4
+
+D:\Monu\3rd Sem\Git\gl\prg4>git clone https://github.com/ammonika/remoterepo099.git
+Cloning into 'remoterepo099'...
+fatal: unable to access 'https://github.com/ammonika/remoterepo099.git/': error setting certificate file: D:/Monu/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+
+D:\Monu\3rd Sem\Git\gl\prg4>git config --global http.sslverify "false"
+
+D:\Monu\3rd Sem\Git\gl\prg4>git clone https://github.com/ammonika/remoterepo099.git
+Cloning into 'remoterepo099'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (9/9), done.

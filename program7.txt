@@ -1,0 +1,40 @@
+D:\Monu\3rd Sem\Git>cd gl
+
+D:\Monu\3rd Sem\Git\gl>cd prg7
+
+D:\Monu\3rd Sem\Git\gl\prg7>git init
+Initialized empty Git repository in D:/Monu/3rd Sem/Git/gl/prg7/.git/
+
+D:\Monu\3rd Sem\Git\gl\prg7>git clone https://github.com/ammonika/tag.git
+Cloning into 'tag'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+D:\Monu\3rd Sem\Git\gl\prg7>cd tag
+
+D:\Monu\3rd Sem\Git\gl\prg7\tag>tag.txt
+
+D:\Monu\3rd Sem\Git\gl\prg7\tag>git add tag.txt
+
+D:\Monu\3rd Sem\Git\gl\prg7\tag>git commit -m "added tag.txt"
+[main 398336e] added tag.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 tag.txt
+
+D:\Monu\3rd Sem\Git\gl\prg7\tag>tag.txt
+
+D:\Monu\3rd Sem\Git\gl\prg7\tag>git add tag.txt
+
+D:\Monu\3rd Sem\Git\gl\prg7\tag>git commit -m "first commit"
+[main 71c5148] first commit
+ 1 file changed, 1 insertion(+)
+
+D:\Monu\3rd Sem\Git\gl\prg7\tag>git tag
+
+D:\Monu\3rd Sem\Git\gl\prg7\tag>git tag v1.0
+
+D:\Monu\3rd Sem\Git\gl\prg7\tag>git tag
+v1.0

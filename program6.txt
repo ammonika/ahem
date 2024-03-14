@@ -1,0 +1,55 @@
+
+D:\Monu\3rd Sem\Git>cd gl
+
+D:\Monu\3rd Sem\Git\gl>cd prg6
+
+D:\Monu\3rd Sem\Git\gl\prg6>git init
+Reinitialized existing Git repository in D:/Monu/3rd Sem/Git/gl/prg6/.git/
+
+D:\Monu\3rd Sem\Git\gl\prg6>git add hey.txt
+
+D:\Monu\3rd Sem\Git\gl\prg6>git commit -m "added hey"
+[master (root-commit) e07c4d3] added hey
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hey.txt
+
+D:\Monu\3rd Sem\Git\gl\prg6>hey.txt
+
+D:\Monu\3rd Sem\Git\gl\prg6>git add hey.txt
+
+D:\Monu\3rd Sem\Git\gl\prg6>git commit -m "first commit"
+[master dba76dd] first commit
+ 1 file changed, 1 insertion(+)
+
+D:\Monu\3rd Sem\Git\gl\prg6>git branch feature
+
+D:\Monu\3rd Sem\Git\gl\prg6>git checkout feature
+Switched to branch 'feature'
+
+D:\Monu\3rd Sem\Git\gl\prg6>git branch
+* feature
+  master
+
+D:\Monu\3rd Sem\Git\gl\prg6>git merge feature -m "merging master to feature branch"
+Already up to date.
+
+D:\Monu\3rd Sem\Git\gl\prg6>git add hey.txt
+
+D:\Monu\3rd Sem\Git\gl\prg6>hey.txt
+
+D:\Monu\3rd Sem\Git\gl\prg6>git add hey.txt
+
+D:\Monu\3rd Sem\Git\gl\prg6>git commit -m "new commit"
+[feature c1213c5] new commit
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+D:\Monu\3rd Sem\Git\gl\prg6>git checkout master
+Switched to branch 'master'
+
+D:\Monu\3rd Sem\Git\gl\prg6>git merge feature -m "merging master to feature"
+Updating dba76dd..c1213c5
+Fast-forward (no commit created; -m option ignored)
+ hey.txt | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+D:\Monu\3rd Sem\Git\gl\prg6>

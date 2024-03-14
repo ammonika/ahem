@@ -1,0 +1,11 @@
+Revert "the commit i will revert"
+
+This reverts commit 6ec9930a1dbc705d834b37e06110e729fed933eb.
+I just reverted the third commit.
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#       modified:   revert.txt
